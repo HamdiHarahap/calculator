@@ -16,6 +16,11 @@ body {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    border-radius: 20px;
     border: 2px solid;
     font-weight: bold;
     font-size: 25px;
@@ -23,20 +28,31 @@ section {
 
 article {
     display: flex;
+    gap: 5px;
 }
 
 section .box {
     width: 100%;
 }
 
+.operator {
+    background-color: #F4CE14;
+}
+
+.result {
+    background-color: #3572EF;
+}
+
 .box .box-out {
-    width: 17.5rem;
+    background-color: #3572EF;
+    width: 18.5rem;
     display: flex;
     justify-content: flex-end;
     padding: 0 20px;
 }
 
 div {
+    border-radius: 20px;
     border: 2px solid;
     width: 70px;
     height: 70px;
